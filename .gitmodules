@@ -19,3 +19,6 @@
 [submodule "academia/themes/manis-hugo-theme"]
 	path = academia/themes/manis-hugo-theme
 	url = https://github.com/yursan9/manis-hugo-theme
+[submodule "academia/themes/themes/hugo-theme-texify"]
+	path = academia/themes/themes/hugo-theme-texify
+	url = https://github.com/queensferryme/hugo-theme-texify.git
