@@ -7,3 +7,9 @@
 [submodule "academia/themes/hugo-black-and-light-theme"]
 	path = academia/themes/hugo-black-and-light-theme
 	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme
+[submodule "academia/hugo-tranquilpeak-theme"]
+	path = academia/hugo-tranquilpeak-theme
+	url = https://github.com/kakawait/hugo-tranquilpeak-theme
+[submodule "manis-hugo-theme"]
+	path = manis-hugo-theme
+	url = https://github.com/yursan9/manis-hugo-theme
