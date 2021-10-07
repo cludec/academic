@@ -22,3 +22,6 @@
 [submodule "academia/themes/themes/hugo-theme-texify"]
 	path = academia/themes/themes/hugo-theme-texify
 	url = https://github.com/queensferryme/hugo-theme-texify.git
+[submodule "academia/themes/hugo-theme-texify"]
+	path = academia/themes/hugo-theme-texify
+	url = https://github.com/queensferryme/hugo-theme-texify.git
