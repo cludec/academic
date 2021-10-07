@@ -13,3 +13,6 @@
 [submodule "manis-hugo-theme"]
 	path = manis-hugo-theme
 	url = https://github.com/yursan9/manis-hugo-theme
+[submodule "academia/manis-hugo-theme"]
+	path = academia/manis-hugo-theme
+	url = https://github.com/yursan9/manis-hugo-theme
