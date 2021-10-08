@@ -1,0 +1,68 @@
+baseURL = "https://cludec.github.io/academic/"
+defaultContentLanguage = "fr"
+hasCJKLanguage = true
+languageCode = "fr"
+paginate = 5
+theme = "hugo-theme-texify"
+title = "Clément Le Ludec"
+
+disqusShortname = ""
+googleAnalytics = ""
+pygmentsUseClasses = true
+
+[author]
+name = "Clément Le Ludec"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  identifier = "post"
+  name = "Blog"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "publications"
+  name = "Publications"
+  url = "/publications/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "teaching"
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/post/"
+  weight = 5
+
+[params]
+  customCSS = []
+  dateFormat = "2006-01-02"
+  description = "My personal website"
+  enableFullRSS = true
+  enableHanEmph = true
+  enableMathjax = true
+  favicon = "/favicon.ico"
+  footnote = "Follow me on <a class=link href=https://twitter.com/cll_jub>Twitter</a> or <a class=link href=/index.xml>RSS</a> | <a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh target=_blank rel=noopener>CC BY-NC-SA 4.0</a>"
+  keywords = ["hugo", "latex", "theme"]
+
+# see https://utteranc.es for installation guide
+[params.utterances]
+  enable = false
+  repo = ""
+  issue_term = "pathname"
+  label = "Comment"
+  theme = "github-light"
